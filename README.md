@@ -4,6 +4,7 @@
 - redux
 - @reduxjs/toolkit
 - redux-logger
+- react-redux
 
 ## Fonctionnalité mise en place via le store
 
