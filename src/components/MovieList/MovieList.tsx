@@ -27,7 +27,10 @@ type MovieListProps = {
 const MovieList = ({ movies, onMovieUpdate, onMovieDelete }: MovieListProps) => {
 
     const moviesJSX = movies.map(
-        movie => <MovieListItem {...movie} onUpdate={onMovieUpdate} onDelete={onMovieDelete} />
+        movie => <MovieListItem {...movie} key={movie.id}
+                    onUpdate={onMovieUpdate} 
+                    onDelete={onMovieDelete}
+                 />
     );
 
     return (
