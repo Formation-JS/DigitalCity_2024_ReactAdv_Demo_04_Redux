@@ -3,6 +3,7 @@
 ## Package
 - redux
 - @reduxjs/toolkit
+- redux-logger
 
 ## Fonctionnalité mise en place via le store
 
