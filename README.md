@@ -20,3 +20,8 @@
 - Supprimer une bd
 - Modifier une bd
 - Ajouter en fav
+
+### Récuperation de données de météo depuis une API (OpenWeatherMap)
+- Obtenir la météo d'un ville
+    - Max une requete toutes les 10 minutes pour la ville déjà présente dans le store 
+- Effacer la météo

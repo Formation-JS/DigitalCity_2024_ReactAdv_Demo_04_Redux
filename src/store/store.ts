@@ -2,6 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import movieReducer from './movie/movie.reducer';
 import reduxLoggerMiddleware from 'redux-logger';
 import comicAlbumSlice from './comic-album/comic-album.slice';
+import weatherSlice from './weather/weather.slice';
 
 
 const store = configureStore({
@@ -9,7 +10,8 @@ const store = configureStore({
     // Les différents reducers du store
     reducer: {
         movieFeature: movieReducer,
-        comicFeature: comicAlbumSlice
+        comicFeature: comicAlbumSlice,
+        weatherFeature: weatherSlice
     },
 
     // Activer l'outil de dev (Redux devtool)
