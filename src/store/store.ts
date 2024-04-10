@@ -20,4 +20,11 @@ const store = configureStore({
 
 });
 
+// Typage du state du store Redux ↓
+export type StoreState = ReturnType<typeof store.getState>
+
+// Typage du disptacher d'action du store Redux ↓
+export type StoreDispatch = typeof store.dispatch
+
+// Export du store ↓
 export default store;
