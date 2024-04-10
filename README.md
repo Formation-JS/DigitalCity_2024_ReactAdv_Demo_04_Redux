@@ -14,3 +14,9 @@
 - Modifier un film
 - Ranking d'un film
 - Selection un film
+
+### Gestion de collection de bd
+- Ajouter une bd
+- Supprimer une bd
+- Modifier une bd
+- Ajouter en fav
